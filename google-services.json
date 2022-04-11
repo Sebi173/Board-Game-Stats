@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "20677506178",
+    "project_id": "boardgamestats-d6bfa",
+    "storage_bucket": "boardgamestats-d6bfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20677506178:android:643c23eba88d4b53f2309b",
+        "android_client_info": {
+          "package_name": "com.boardgamestats.boardgamestats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20677506178-p1lmadnp9ho9ekj6t0dnkknoost7d6kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMVBwDMzHcp49gwUqjNUK50Qntu-1jSaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20677506178-p1lmadnp9ho9ekj6t0dnkknoost7d6kd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
