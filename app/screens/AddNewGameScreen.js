@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImageBackground, StyleSheet, View } from 'react-native';
-import AddGame from '../components/AddGame.js'
+import AddGame from '../components/functionality/AddGame.js'
 
 function AddNewGameScreen() {
     return (

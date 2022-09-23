@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImageBackground, StyleSheet } from 'react-native';
-import DropdownGames from '../components/DropdownGames';
+import DropdownGames from '../components/functionality/DropdownGames';
 
 function AddResultScreen() {
     return (

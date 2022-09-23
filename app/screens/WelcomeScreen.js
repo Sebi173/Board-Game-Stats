@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { Button, ImageBackground, StyleSheet, View } from 'react-native';
+import { ImageBackground, StyleSheet, View } from 'react-native';
 import NavigatorRow from '../components/NavigatorRow.js';
 
-
+// data is used for the 4 options shown on the Welcome Screen
 const data = [{
     id: 1,
     title: 'Report Result',
@@ -14,40 +14,36 @@ const data = [{
     title: 'See Stats',
     image: 'https://img.icons8.com/external-flaticons-lineal-color-flat-icons/452/external-stats-business-flaticons-lineal-color-flat-icons-2.png',
     screen: 'StatsScreen'
-}, 
+},
 {
     id: 3,
     title: 'Add Game',
     image: 'https://img.icons8.com/external-flaticons-lineal-color-flat-icons/452/external-board-game-game-design-flaticons-lineal-color-flat-icons.png',
     screen: 'AddNewGameScreen'
-}, 
+},
 {
     id: 4,
     title: 'Add Player',
     image: 'https://img.icons8.com/external-flaticons-flat-flat-icons/452/external-adventurer-archaeology-flaticons-flat-flat-icons-2.png',
     screen: 'AddNewPlayerScreen'
-}, 
+},
 ]
 
 const WelcomeScreen = ({ navigation }) => {
-    
+
     return (
-        <ImageBackground style={styles.container} source={{uri: 'https://cdn.wallpapersafari.com/78/91/aPClZg.jpg'}}>
+        <ImageBackground style={styles.container} source={{ uri: 'https://cdn.wallpapersafari.com/78/91/aPClZg.jpg' }}>
             <View style={styles.navigator_top}>
-                <NavigatorRow 
-                    data={data.slice(0,2)}
-                    navigation = {navigation}   
+                <NavigatorRow
+                    data={data.slice(0, 2)}
+                    navigation={navigation}
                 />
             </View>
             <View style={styles.navigator_buttom}>
-                <NavigatorRow 
-                    data={data.slice(2,4)}
-                    navigation = {navigation}   
+                <NavigatorRow
+                    data={data.slice(2, 4)}
+                    navigation={navigation}
                 />
-            </View>
-            <View>
-                <Button onPress={() => navigation.navigate('TestingScreen')} title='Testing Ground'>
-                </Button>
             </View>
         </ImageBackground>
     );

@@ -16,6 +16,9 @@
     "web": {
       "game": "./app/assets/game.jpg",
       "scythe": "./app/assets/scythe.jpg"
+    },
+    "android": {
+      "package": "com.sebi173.BoardGameStats"
     }
   }
 }

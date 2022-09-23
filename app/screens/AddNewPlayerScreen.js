@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImageBackground, StyleSheet } from 'react-native';
-import AddPlayer from '../components/AddPlayer.js'
+import AddPlayer from '../components/functionality/AddPlayer.js'
 
 const AddNewPlayerScreen = (props) => {
     return (
